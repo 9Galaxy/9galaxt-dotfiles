@@ -1,0 +1,43 @@
+2023/08/07-17:28:09.892 46e6 Reusing MANIFEST /home/marianog/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/07-17:28:09.892 46e6 Recovering log #3
+2023/08/07-17:28:09.892 46e6 Reusing old log /home/marianog/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2023/08/07-17:28:15.914 46e7 Level-0 table #5: started
+2023/08/07-17:28:16.031 46e7 Level-0 table #5: 52671 bytes OK
+2023/08/07-17:28:16.099 46e7 Delete type=0 #3
+2023/08/07-17:28:16.100 46e6 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/08/07-17:46:22.513 46e7 Level-0 table #7: started
+2023/08/07-17:46:22.572 46e7 Level-0 table #7: 1085078 bytes OK
+2023/08/07-17:46:22.624 46e7 Delete type=0 #4
+2023/08/07-17:47:40.821 46e6 Compacting 1@1 + 1@2 files
+2023/08/07-17:47:40.858 46e6 Generated table #8@1: 375 keys, 51734 bytes
+2023/08/07-17:47:40.858 46e6 Compacted 1@1 + 1@2 files => 51734 bytes
+2023/08/07-17:47:40.905 46e6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/07-17:47:40.905 46e6 Delete type=2 #7
+2023/08/07-17:47:40.905 46e6 Delete type=2 #5
+2023/08/07-18:02:08.033 46e7 Level-0 table #10: started
+2023/08/07-18:02:08.105 46e7 Level-0 table #10: 1064224 bytes OK
+2023/08/07-18:02:08.131 46e7 Delete type=0 #6
+2023/08/07-18:12:12.403 46e7 Compacting 1@1 + 1@2 files
+2023/08/07-18:12:12.466 46e7 Generated table #11@1: 417 keys, 41074 bytes
+2023/08/07-18:12:12.466 46e7 Compacted 1@1 + 1@2 files => 41074 bytes
+2023/08/07-18:12:12.547 46e7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/07-18:12:12.548 46e7 Delete type=2 #10
+2023/08/07-18:12:12.548 46e7 Delete type=2 #8
+2023/08/07-18:56:30.572 46e7 Level-0 table #13: started
+2023/08/07-18:56:30.656 46e7 Level-0 table #13: 998277 bytes OK
+2023/08/07-18:56:30.682 46e7 Delete type=0 #9
+2023/08/07-19:07:58.494 46e7 Compacting 1@1 + 1@2 files
+2023/08/07-19:07:58.542 46e7 Generated table #14@1: 504 keys, 95574 bytes
+2023/08/07-19:07:58.542 46e7 Compacted 1@1 + 1@2 files => 95574 bytes
+2023/08/07-19:07:58.609 46e7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/07-19:07:58.610 46e7 Delete type=2 #11
+2023/08/07-19:07:58.610 46e7 Delete type=2 #13
+2023/08/07-19:26:19.201 46e7 Level-0 table #16: started
+2023/08/07-19:26:19.291 46e7 Level-0 table #16: 1073492 bytes OK
+2023/08/07-19:26:19.377 46e7 Delete type=0 #12
+2023/08/07-19:36:48.150 46fc Compacting 1@1 + 1@2 files
+2023/08/07-19:36:48.193 46fc Generated table #17@1: 609 keys, 48370 bytes
+2023/08/07-19:36:48.193 46fc Compacted 1@1 + 1@2 files => 48370 bytes
+2023/08/07-19:36:48.258 46fc compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/07-19:36:48.258 46fc Delete type=2 #16
+2023/08/07-19:36:48.258 46fc Delete type=2 #14

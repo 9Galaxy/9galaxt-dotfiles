@@ -1,0 +1,17 @@
+2023/08/07-16:55:51.041 46e6 Creating DB /home/marianog/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm since it was missing.
+2023/08/07-16:55:51.168 46e6 Reusing MANIFEST /home/marianog/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2023/08/07-16:55:52.836 46e7 Level-0 table #5: started
+2023/08/07-16:55:52.924 46e7 Level-0 table #5: 1821368 bytes OK
+2023/08/07-16:55:52.958 46e7 Delete type=0 #3
+2023/08/07-16:56:11.566 46e7 Level-0 table #7: started
+2023/08/07-16:56:11.645 46e7 Level-0 table #7: 1616976 bytes OK
+2023/08/07-16:56:11.721 46e7 Delete type=0 #4
+2023/08/07-16:56:14.774 46e7 Level-0 table #9: started
+2023/08/07-16:56:14.832 46e7 Level-0 table #9: 1894009 bytes OK
+2023/08/07-16:56:14.858 46e7 Delete type=0 #6
+2023/08/07-16:56:29.076 46e7 Level-0 table #11: started
+2023/08/07-16:56:29.144 46e7 Level-0 table #11: 1728406 bytes OK
+2023/08/07-16:56:29.169 46e7 Delete type=0 #8
+2023/08/07-16:58:38.228 46e7 Level-0 table #13: started
+2023/08/07-16:58:38.317 46e7 Level-0 table #13: 3134099 bytes OK
+2023/08/07-16:58:38.347 46e7 Delete type=0 #10

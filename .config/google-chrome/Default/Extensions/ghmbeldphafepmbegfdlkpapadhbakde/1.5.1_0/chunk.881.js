@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkproton_pass_extension=globalThis.webpackChunkproton_pass_extension||[]).push([[881],{3881:(e,t,n)=>{n.r(t),n.d(t,{BigInteger:()=>BigInteger,default:()=>BigInteger});class BigInteger{static setImplementation(e,t=!1){if(BigInteger.Implementation&&!t)throw new Error("Implementation already set");BigInteger.Implementation=e}static new(e){return new BigInteger.Implementation(e)}}}}]);
+//# sourceMappingURL=chunk.881.js.map

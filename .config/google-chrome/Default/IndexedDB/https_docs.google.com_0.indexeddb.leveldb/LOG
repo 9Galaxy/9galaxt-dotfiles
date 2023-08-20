@@ -1,0 +1,7 @@
+2023/08/07-17:24:37.089 46e6 Reusing MANIFEST /home/marianog/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/07-17:24:37.089 46e6 Recovering log #3
+2023/08/07-17:24:37.090 46e6 Reusing old log /home/marianog/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000003.log 
+2023/08/07-18:05:49.434 46e7 Level-0 table #5: started
+2023/08/07-18:05:49.459 46e7 Level-0 table #5: 8255 bytes OK
+2023/08/07-18:05:49.488 46e7 Delete type=0 #3
+2023/08/07-18:05:49.488 46e7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

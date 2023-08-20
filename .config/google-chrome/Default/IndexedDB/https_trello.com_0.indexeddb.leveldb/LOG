@@ -1,0 +1,6 @@
+2023/08/07-19:08:45.601 46e6 Creating DB /home/marianog/.config/google-chrome/Default/IndexedDB/https_trello.com_0.indexeddb.leveldb since it was missing.
+2023/08/07-19:08:45.710 46e6 Reusing MANIFEST /home/marianog/.config/google-chrome/Default/IndexedDB/https_trello.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/07-19:09:43.281 46e7 Level-0 table #5: started
+2023/08/07-19:09:43.314 46e7 Level-0 table #5: 125191 bytes OK
+2023/08/07-19:09:43.342 46e7 Delete type=0 #3
+2023/08/07-19:09:43.342 46e7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,1 @@
+(globalThis.webpackChunkproton_pass_extension=globalThis.webpackChunkproton_pass_extension||[]).push([[196],{3196:()=>{}}]);
