@@ -47,7 +47,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # You can also set it to another string to have that shown instead of the default red dots.
 # e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
 # Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
-# COMPLETION_WAITING_DOTS="true"
+# COMPLETION_WAsITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -71,6 +71,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+plugins=(web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -133,24 +134,29 @@ alias lg='ls -l --group-directories-first'
 alias gcl='git clone --depth 1'
 alias gi='git init'
 alias ga='git add'
-alias gc='git commit -m'
+alias gc='git comtmit -m'
 alias gp='git push origin master'
+# git-graph
+# alias ggf ='git-graph --model simple --style round | fzf --reverse --height=50%'
 
 # export cargo binaries
-export PATH=/home/sk/.cargo/bin:$PATH
-
+export PATH=/home/marianog/.cargo/bin:$PATH
+export PATH=/home/marianog/.yarn/bin:$PATH
 
 # Nvim Switcher
 # alias nvim-lazy="NVIM_APPNAME=LazyVim nvim"
 alias nvim-astro="NVIM_APPNAME=AstroNvim nvim"
+alias nvim-chad="NVIM_APPNAME=NvChad nvim"
+alias nvim-lazy="NVIM_APPNAME=LazyNvim nvim"
+alias nvim-astro-v4="NVIM_APPNAME=astronvim_v4 nvim"
 
 function nvims() {
-  items=("default" "AstroNvim")
+  items=("astronvim_v4" "AstroNvim" "Nvim" "NvChad" "LazyNvim" )
   config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)
   if [[ -z $config ]]; then
     echo "Nothing selected"
     return 0
-  elif [[ $config == "default" ]]; then
+  elif [[ $config == "NvChad" ]]; then
     config=""
   fi
   NVIM_APPNAME=$config nvim $@
@@ -158,5 +164,7 @@ function nvims() {
 
 bindkey -s ^a "nvims\n"
 
+bindkey -s ^f "fzf --border --height=50% --preview 'bat --style=numbers --color=always {}' | xargs -n 1 nvim\n"
+bindkey -s ^h "history | fzf --reverse\n"
 
-
+eval "$(zellij setup --generate-auto-start zsh)"
