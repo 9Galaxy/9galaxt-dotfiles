@@ -1,0 +1,722 @@
+clear
+ls
+exa
+clear
+$nu.config-path
+clear
+exit
+exa
+exa --nu
+exa --Nushell
+clear
+;et cond = {|x| $x < 0 }; [-1 -2 9 1] | take while $cond
+let cond = {|x| $x < 0 }; [-1 -2 9 1] | take while $cond
+clear
+[foo bar baz] | insert 1 'beeze'
+clear
+ls
+la
+ll
+clear
+ls | sort-by type name -i | grid -c | str trim
+clear
+ls
+clear
+exa
+tree
+tree src/
+clear
+open
+open astro.config.mjs
+z
+exit
+ls
+open Wolf.png
+open "Wolf.png"
+clear
+display Wolf.png
+clear
+exit
+$nu.config-path
+clear
+$nu.config-path
+mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu<\n>
+use ~/.cache/starship/init.nu<\n>
+ls
+clear
+exa --a
+clear
+ls
+exit
+tree
+clear
+fzf 
+exit
+ls
+ls --reverse
+ls
+$nu.config-path
+fzf star
+clear
+z
+ls
+cd nushell/
+ls
+bat config.nu
+reboot
+ls --icons
+ls --Icons
+ls
+clear
+z
+z Desktop/
+clear
+zoxide init nushell | save -f ~/.zoxide.nu
+source ~/.zoxide.nu
+z
+z Desktop/
+clear
+z
+la
+ls -a
+bat .zoxide.nu
+help aliases 
+n
+n Desktop/
+clear
+help aliases 
+shels
+shells
+clear
+scope aliases 
+bat .zshrc
+geany
+geany .config/nushell/config.nu
+config nu 
+clear
+nvims
+nvim
+clear
+ls
+clear
+nvims
+exit
+ls
+clear
+nvims
+nvim-astro-v4
+geany .config/nushell/config.nu
+cd .config/nushell/
+source config.nu
+geany config.nu
+source config.nu
+nvim-astro-v4
+nvim
+exit
+nvim
+cd .local/
+ls
+cd share/
+ls
+nvim 
+cd nvim/
+ls
+cd ..
+mv nvim NvChad
+ls
+mv astronvim_v4 nvim
+clear
+ls
+nvim
+cd ../../.config/
+ls
+clear
+z
+cd ..
+ls
+ls -a
+z
+clear
+exit
+z
+clear
+geany config.nu
+source config.nu
+source .config/nushell/config.nu
+exit
+z
+clear
+ls -a
+source ~/.zoxide.nu
+z
+ls
+clear
+nivm] .config/nushell/config.nu
+nvim .config/nushell/config.nu
+source ~/.zoxide.nu
+exit
+z
+nvim
+clear
+use ~/.cache/starship/init.nu
+clear
+ls
+clear
+nvim .config/nushell/config.nu
+exit
+clear
+ls
+nvim
+nvim .config/nushell/config.nu
+exit
+clear
+ls
+v
+p -Syu
+clear
+v
+v .config/nushell/config.nu
+v .config/nvim/lua/plugins/
+v
+v .local/share/nvim/lazy/none-ls.nvim/lua/null-ls/loop.lua
+ls
+cd .config/nvim/
+ls
+clear
+git status
+git add lazy-lock.json
+git status
+git add *
+git status
+git restore lua/plugins/nvim-nio.lua
+git status
+git restore lua/plugins/nvim-nio.lua --staged
+git status
+clear
+git status
+git autocom "Lspkind changed"
+clear
+ls
+git push origin main
+clear
+exit
+z
+clear
+z .config/
+ls
+rm -rf nvim
+ls
+z
+z .local/share/
+z
+z -
+ls
+rm -rf nvim
+ls
+clear
+z
+mv ~/.config/nvim ~/.config/nvim.bak<\n>mv ~/.local/share/nvim ~/.local/share/nvim.bak<\n>mv ~/.local/state/nvim ~/.local/state/nvim.bak<\n>mv ~/.cache/nvim ~/.cache/nvim.bak
+mv ~/.local/state/nvim ~/.local/state/nvim.bak<\n>mv ~/.cache/nvim ~/.cache/nvim.bak
+clear
+git clone git@github.com:9Galaxy/Astro-config.git ~/.config/nvim
+v ~/.config/nvim
+v
+v .config/nvim/lua/plugins/
+v
+h
+config nu 
+h
+config nu 
+source .config/nushell/config.nu
+fzf
+config nu 
+v .config/nushell/config.nu
+nvim .config/nushell/config.nu
+exit
+nu
+preview
+prev
+v .config/nushell/config.nu
+nvim .config/nushell/config.nu
+source .config/nushell/config.nu
+nvim .config/nushell/config.nu
+source .config/nushell/config.nu
+preview
+history | grep
+history | grep s
+history | rga r
+history | fzf s
+history | fzf 
+history | fzf --preview
+preview 
+v .config/nushell/config.nu
+source  .config/nushell/config.nu
+v
+v .config/nushell/config.nu
+source  .config/nushell/config.nu
+history | h
+history | rga
+history | rga sudo
+history | rga sud
+history | rga sudo
+clear
+h
+v .config/nvim/init.lua
+z .config/nvim/init.lua
+z
+z .config/nvim/init.lua
+z /.config/nvim/init.lua
+z .config/
+z .config/nvim/
+ls
+cd ..
+ls
+z ..
+ls
+ls nvim/
+exot
+exit
+su
+ls
+clear
+exit
+v .zshrc
+exit
+history | h
+history h
+clear
+history | rga p
+history | rga p -
+history | rga p -Syu
+history | rga "p -Syu"
+clear
+v .config/nushell/config.nu
+source  .config/nushell/config.nu
+source .config/nushell/config.nu
+graph 
+z Nix/Demos/curso-astro-demo-mnf/
+graph 
+exit
+v .config/nushell/config.nu
+z
+v .config/nushell/config.nu
+source .config/nushell/config.nu
+graph
+z Nix/Demos/curso-astro-demo-mnf/
+graph 
+clear
+graph | h
+history | h
+lh
+v .config/nushell/config.nu
+z -
+v .config/nushell/config.nu
+source .config/nushell/config.nu
+v .config/nushell/config.nu
+exit
+sourece
+exit
+clear
+ls
+clear
+p -Syu
+yay -Syu
+snapd refresh
+snap refresh
+v .zshrc
+source .zshrc
+clear
+p -Syu
+v
+z .config/nvim/lua/community.lua
+z .config/nvim/lua/
+clear
+ls
+v
+z ~/Nix/Demos/curso-astro-demo-mnf/
+pnpm i --save-dev prettier prettier-plugin-astro
+clear
+ls
+l
+clear
+ls
+bat astro.config.mjs
+cd node_modules/
+ls
+cd @astrojs/
+ls
+z ..
+ls
+bat astro/
+bat astro
+cd prettier/
+ls
+cd plugins/
+l
+ls
+z ..
+ls
+z ..
+ls
+z prettier/
+ls
+z ..
+la
+ls -a
+z ..
+ls
+z ..
+ls
+v
+z
+z -
+ls
+pnpm add --save-dev --save-exact prettier
+clear
+node --eval "fs.writeFileSync('.prettierrc','{}\n')"
+pnpm exec prettier . --write
+bat tailwind.config.mjs
+prettier
+ckear
+clear
+ls -a
+cd .git/
+ls
+z hooks/
+ls
+bat pre-commit.sample
+z ../..
+....
+.
+..
+z marianog/
+z Nix/Demos/curso-astro-demo-mnf/
+clear
+shutdown 
+p -Syu
+npm install -g n
+sudo npm install -g n
+n lts
+sudo npm install -g n
+n latest
+n
+n --help
+clear
+exit
+n
+n 10
+n 11
+$n
+clear
+help
+scope aliases 
+v .config/nushell/config.nu
+clear
+v .config/nushell/config.nu
+source .config/nushell/config.nu
+h
+v .config/nushell/config.nu
+source .config/nushell/config.nu
+z Nix/Demos/curso-astro-demo-mnf/
+graph
+clear
+ls
+clear
+z
+clear
+v .zshrc
+z Nix/Demos/curso-astro-demo-mnf/
+z marianog/
+z
+clear
+n
+n -he
+n -h
+n Desktop/
+n 1
+n 5
+clear
+z Nix/Demos/
+n 1
+n2
+n 2
+clear
+help aliases 
+z
+clear
+ls
+help aliases 
+v .config/nushell/config.nu
+v .config/nushell/
+z
+z .local/
+ls
+z state/
+ls
+z ..
+..
+z .local/
+ls
+z share/
+ls
+h
+ls
+..
+....
+z
+clear
+ls
+la
+ls -a
+bat .zoxide.nu
+n
+clear
+n prune
+npm
+exit
+clear
+s
+clear
+open package.json
+clear
+ls
+ps
+clear
+sys
+clear
+open Downloads/Wolf.png
+clear
+display Downloads/Wolf.png
+p -Ss open
+p -S open
+clear
+open -h
+clear
+pnpm -version
+pnpm --version
+clear
+pnpm --help
+v
+pnpm install
+ls
+p -S just
+just
+just package-lock.json
+clear
+sudo pacman -Syu<\n>sudo pacman -S --needed \<\n>    webkit2gtk \<\n>    base-devel \<\n>    curl \<\n>    wget \<\n>    file \<\n>    openssl \<\n>    appmenu-gtk-module \<\n>    gtk3 \<\n>    libappindicator-gtk3 \<\n>    librsvg \<\n>    libvips
+clear
+rustup update
+node -v
+clear
+pnpm tauri dev
+pnpm create tauri-app
+clear
+z Nix/Demos/curso-astro-demo-mnf/
+v
+starship preset tokyo-night -o ~/.config/starship.toml
+clear
+exit
+clear
+z Nix/Demos/curso-astro-demo-mnf/
+starship preset pastel-powerline -o ~/.config/starship.toml
+z Nix/Demos/curso-astro-demo-mnf/
+z
+clear
+starship preset nerd-font-symbols -o ~/.config/starship.toml
+z Nix/Demos/curso-astro-demo-mnf/
+ls
+ls | sort-by type name -i | grid -c | str trim
+ls | sort-by type name -i
+ls | sort-by type name -i | grid -c 
+ls | sort-by type name -i | grid
+ls | sort-by type name -i | grid -c
+clear
+starship preset gruvbox-rainbow -o ~/.config/starship.toml
+clear
+ls
+v
+z .config/nvim/lua/
+clear
+z
+starship preset tokyo-night -o ~/.config/starship.toml
+clear
+z .config/nvim/lua/
+z
+clear
+ls | sort-by type name -i | grid -c
+z Nix/Demos/curso-astro-demo-mnf/
+ls
+z src/
+ls
+z layouts/
+ls
+ls | sort-by type name -i | grid -c
+fd index.astro
+z
+fd index.astro
+clear
+ls
+clear
+lsd
+lsd -l
+clear
+exa
+ls
+clear
+exa --nu
+exa -i
+exa -I
+exa --Iconms
+exa --Icons
+exa --help
+exa --tree
+clear
+ls
+just
+just package-lock.json
+clear
+bat .config/nushell/config.nu
+bat .zshrc | h
+bat .zshrc | fzf --reverse
+v .config/nushell/config.nu
+source .config/nushell/config.nu
+clear
+pre
+preview
+v .config/nushell/config.nu
+source .config/nushell/config.nu
+preview
+v .config/nushell/config.nu
+help aliases 
+f
+ls | f
+history | f
+h
+gs
+clear
+gst
+v .config/nushell/config.nu
+source .config/nushell/config.nu
+v .config/nushell/config.nu
+source .config/nushell/config.nu
+v .config/nushell/config.nu
+source .config/nushell/config.nu
+conf-zsh 
+preview
+v .config/nushell/config.nu
+source .config/nushell/config.nu
+conf-zsh 
+conf-nu
+clear
+conf-nu
+clear
+nvim ~/.config/nushell/config.nu; source ~/.config/nushell/config.nu
+conf-nu
+source .config/nushell/config.nu
+clear
+nvim ~/.config/nushell/config.nu && source ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu and; source ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu ; source ~/.config/nushell/config.nu
+conf-nu
+clear
+clear
+ls
+nvim ~/.config/nushell/config.nu; source ~/.config/nushell/config.nu
+gcm
+source ~/.config/nushell/config.nu
+gcm
+nvim ~/.config/nushell/config.nu
+clear
+bash <(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)
+zsh <(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)
+bash <(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)
+clear
+exit
+clear
+exit
+clear
+bash <(curl https://raw.githubusercontent.com/atuinsh/atuin/main/install.sh)
+sudo pacman -S atuin
+clear
+v
+echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
+bat .zshrc | fzf --reverse
+mkdir ~/.local/share/atuin/<\n>atuin init nu | save -f ~/.local/share/atuin/init.nu
+source ~/.local/share/atuin/init.nu
+clear
+source ~/.local/share/atuin/init.nu
+clear
+v .config/nushell/config.nu
+clear
+ls
+clear
+z .config/atuin/config.toml
+ls
+:q
+v .config/atuin/config.toml
+source .config/atuin/config.toml
+ls
+v .config/atuin/config.toml
+clear
+ls
+clear
+cargo install mdbook
+clear
+curl -fsSL https://get.comtrya.dev | sh
+sudo cp comtrya-x86_64-unknown-linux-gnu /usr/local/bin/comtrya<\n>  sudo ln -sf /usr/local/bin/comtrya /usr/local/bin/comtrya
+clear
+VERSION=v0.8.8 curl -fsSL https://get.comtrya.dev | sh
+exit
+clear
+comtrya
+clear
+comtrya
+z .config
+ls
+clear
+comtrya
+comtrya apply
+clear
+v
+ls
+z atuin/
+ls
+clear
+cd ..
+z
+comtrya apply
+comtrya apply -m .zshrc
+ls
+bat comtrya-x86_64-unknown-linux-gnu
+comtrya apply -d ./ apply
+..
+comtrya apply -d ./marianog/ apply
+comtrya apply -d ./marianog apply
+comtrya -d ./marianog apply
+clear
+z
+comtrya -d ./ apply
+clear
+comtrya contexts --show-value
+comtrya contexts --show-values
+comtrya contexts --show-values | fzf 
+comtrya -d https://github.com/9Galaxy/9galaxy-dotfiles.git apply
+z /home/marianog/.cache/comtrya/manifests/git/githubcom9Galaxy9galaxy-dotfilesgit
+ls
+ls -a
+bat .zshrc | fzf --reverse
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+z /home/marianog/.cache/comtrya/manifests/git/githubcom9Galaxy9galaxy-dotfilesgit
+z
+nvim .zshrc
+z .confi
+ls
